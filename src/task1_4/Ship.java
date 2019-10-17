@@ -7,6 +7,7 @@ public class Ship extends Thread {
 
     int currentContainersQty;
 
+
     public Ship(String name, int containersToTake, int containersToLeave, Port port) {
         super(name);
         this.containersToTake = containersToTake;
